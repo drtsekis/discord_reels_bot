@@ -1,4 +1,9 @@
-![demo gif](https://imgur.com/a/yNxw0Uo)
+## Screenshots
+
+[Click here to view screenshots on Imgur](https://imgur.com/a/yNxw0Uo)
+
+> This link opens the Imgur album where you can see all related screenshots.
+
 
 # Discord Reels Bot
 
