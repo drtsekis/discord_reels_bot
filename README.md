@@ -197,7 +197,4 @@ We welcome pull requests that improve documentation, code quality, or add releva
 This project is licensed under the [MIT License](LICENSE).  
 You’re free to use, modify, and distribute this code, as long as you preserve the original license notice.
 
----
-
-```
 
