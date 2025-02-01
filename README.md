@@ -53,7 +53,7 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 
 ---
 
-## Installation
+## Usage
 
 1. **Clone the Repository** (or download the folder):
    ```bash
