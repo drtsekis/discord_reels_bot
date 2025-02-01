@@ -9,16 +9,9 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 1. [Features](#features)  
 2. [System Requirements](#system-requirements)  
 3. [Installation](#installation)  
-4. [Folder Structure](#folder-structure)  
-5. [Usage](#usage)  
-   - [Commands Overview](#commands-overview)  
-   - [Example Workflow](#example-workflow)  
-6. [Database Details](#database-details)  
-7. [Bot Configuration](#bot-configuration)  
-8. [Customization](#customization)  
-9. [Known Issues & Limitations](#known-issues--limitations)  
-10. [Contributing](#contributing)  
-11. [License](#license)  
+4. [Known Issues & Limitations](#known-issues--limitations)  
+5. [Contributing](#contributing)  
+6. [License](#license)  
 
 > *Notice how each TOC entry points to a heading below. For “Commands Overview,” we use `(#commands-overview)`.*
 
@@ -52,15 +45,3 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
    git clone https://github.com/your-username/discord-reels-bot.git
 
 ---
-
-## Folder Structure
-
-discord_reels_bot/
-├── cogs/
-│   └── reels.py         # Cog for the Reels feature
-├── data/
-│   └── database.db      # SQLite database file (auto-created if not found)
-├── main.py              # Main bot file
-├── requirements.txt     # Python dependencies
-├── .gitignore           # Files/folders to ignore in Git
-└── README.md            # This documentation
