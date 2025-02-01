@@ -42,14 +42,17 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 1 Change Directory to the project folder:
    cd discord-reels-bot
 - (Recommended) Create & Activate a Virtual Environment:
-   ```bash python -m venv venv
+   ```
+   bash python -m venv venv
    source venv/bin/activate       # On macOS/Linux
    venv\Scripts\activate          # On Windows
 - Install Dependencies:
-   ```bash pip install -r requirements.txt
+   ```bash 
+   pip install -r requirements.txt
 - Set Up Your Bot Token:
    - Option A: (in main.py):
-      ```bash bot.run("YOUR_BOT_TOKEN")
+      ```bash 
+      bot.run("YOUR_BOT_TOKEN")
 
 load_dotenv()
 token = os.getenv("DISCORD_BOT_TOKEN")
