@@ -1,3 +1,5 @@
+[Click here to watch the Paradox Reels demo video](https://cdn.discordapp.com/attachments/1138824814270890024/1331628295762219038/Paradox_Reels.mp4)
+
 # Discord Reels Bot
 
 A **Discord bot** that provides a temporary “Reels” feature—users can upload images that remain active for 24 hours. Other users can view and like these images; the bot automatically removes them (and their associated likes) after expiration.
