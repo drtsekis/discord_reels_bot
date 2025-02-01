@@ -1,11 +1,4 @@
-
-
-
 https://github.com/user-attachments/assets/10aec415-5bb6-4d2c-9dfb-e3113b76a9fa
-
-
-
-> This link opens the Imgur album where you can see all related screenshots.
 
 
 # Discord Reels Bot
