@@ -4,17 +4,6 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 
 ---
 
-## How the Table of Contents Works
-
-In this README, we include a clickable Table of Contents that references different sections below.  
-- Each **section** is written as a **Markdown heading** (using `##`, `###`, etc.).  
-- The Table of Contents links to these sections by using an **anchor** (a special ID that GitHub automatically generates).  
-- To create an anchor link, you write `[Section Title](#section-title-in-lowercase-with-dashes)`.  
-
-For instance, a heading `## Features` is linked with `[Features](#features)`. GitHub finds the heading named “Features” and scrolls to it when clicked.
-
----
-
 ## Table of Contents
 
 1. [Features](#features)  
