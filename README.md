@@ -8,7 +8,8 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 
 1. [Features](#features)  
 2. [System Requirements](#system-requirements)  
-3. [Installation](#installation)  
+3. [Installation](#installation)
+4. [Usage](#usage)  
 
 ---
 
@@ -30,6 +31,25 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 - **aiosqlite** (for asynchronous SQLite operations)  
 - Optional: **python-dotenv** for loading bot tokens from a `.env` file  
 
+
+---
+
+## Installation
+
+1. **Clone the Repository** (or download the folder):
+   ```bash
+   git clone https://github.com/your-username/discord-reels-bot.git```
+- Change Directory to the project folder:
+   cd discord-reels-bot
+- (Recommended) Create & Activate a Virtual Environment:
+   ```bash python -m venv venv
+   source venv/bin/activate       # On macOS/Linux
+   venv\Scripts\activate          # On Windows```
+
+- Change Directory to the project folder:
+   cd discord-reels-bot
+- Change Directory to the project folder:
+   cd discord-reels-bot
 
 ---
 
