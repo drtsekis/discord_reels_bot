@@ -53,11 +53,17 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
    - Option A: (in main.py):
       ```bash 
       bot.run("YOUR_BOT_TOKEN")
-
-load_dotenv()
-token = os.getenv("DISCORD_BOT_TOKEN")
-bot.run(token)
-
+   - Option B: Use .env (with python-dotenv):
+      ```bash 
+      DISCORD_BOT_TOKEN=YourDiscordBotTokenHere
+   And then in main.py:
+      ```bash
+      import os
+      from dotenv import load_dotenv
+      
+      load_dotenv()
+      token = os.getenv("DISCORD_BOT_TOKEN")
+      bot.run(token)
 
 
 
