@@ -58,12 +58,12 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
       DISCORD_BOT_TOKEN=YourDiscordBotTokenHere
    And then in main.py:
   ```bash
-      import os
-      from dotenv import load_dotenv
-      
-      load_dotenv()
-      token = os.getenv("DISCORD_BOT_TOKEN")
-      bot.run(token)
+   import os
+   from dotenv import load_dotenv
+   
+   load_dotenv()
+   token = os.getenv("DISCORD_BOT_TOKEN")
+   bot.run(token)
 
 
 
@@ -71,8 +71,13 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 
 ## Usage
 
-1. **Clone the Repository** (or download the folder):
-   ```bash
-   git clone https://github.com/your-username/discord-reels-bot.git
+After completing Installation:
+  ```bash
+   import os
+   from dotenv import load_dotenv
+   
+   load_dotenv()
+   token = os.getenv("DISCORD_BOT_TOKEN")
+   bot.run(token)
 
 ---
