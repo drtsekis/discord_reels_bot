@@ -1,3 +1,4 @@
+```markdown
 # Discord Reels Bot
 
 A **Discord bot** that provides a temporary “Reels” feature—users can upload images that remain active for 24 hours. Other users can view and like these images; the bot automatically removes them (and their associated likes) after expiration.
@@ -8,8 +9,8 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 
 1. [Features](#features)  
 2. [System Requirements](#system-requirements)  
-3. [Installation](#installation)
-4. [Usage](#usage)  
+3. [Installation](#installation)  
+4. [Usage](#usage)
 
 ---
 
@@ -20,7 +21,7 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 - **View Reels**: A simple “slideshow” interface (ephemeral to the viewer) that automatically navigates to the next Reel after 15 seconds of inactivity.  
 - **User Likes**: Each user can like any Reel exactly once.  
 - **Automated Cleanup**: A scheduled task runs every 10 minutes to remove expired Reels from the database.  
-- **Slash Commands**: All functionality is accessed via Discord slash commands (e.g., `/reels create`, `/reels view`).  
+- **Slash Commands**: All functionality is accessed via Discord slash commands (e.g., `/reels create`, `/reels view`).
 
 ---
 
@@ -31,7 +32,6 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 - **aiosqlite** (for asynchronous SQLite operations)  
 - Optional: **python-dotenv** for loading bot tokens from a `.env` file  
 
-
 ---
 
 ## Installation
@@ -39,45 +39,41 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 1. **Clone the Repository** (or download the folder):
    ```bash
    git clone https://github.com/your-username/discord-reels-bot.git
-1 Change Directory to the project folder:
-   cd discord-reels-bot
-- (Recommended) Create & Activate a Virtual Environment:
    ```
-   bash python -m venv venv
+2. **Change Directory** to the project folder:
+   ```bash
+   cd discord-reels-bot
+   ```
+3. **(Recommended) Create & Activate a Virtual Environment**:
+   ```bash
+   python -m venv venv
    source venv/bin/activate       # On macOS/Linux
    venv\Scripts\activate          # On Windows
-- Install Dependencies:
-   ```bash 
+   ```
+4. **Install Dependencies**:
+   ```bash
    pip install -r requirements.txt
-- Set Up Your Bot Token:
-   - Option A: (in main.py):
-      ```bash 
-      bot.run("YOUR_BOT_TOKEN")
-   - Option B: Use .env (with python-dotenv):
-      ```bash 
-      DISCORD_BOT_TOKEN=YourDiscordBotTokenHere
-   And then in main.py:
-  ```bash
-   import os
-   from dotenv import load_dotenv
-   
-   load_dotenv()
-   token = os.getenv("DISCORD_BOT_TOKEN")
-   bot.run(token)
+   ```
+5. **Set Up Your Bot Token**:
 
+   - **Option A**: Hardcode in `main.py`:
+     ```python
+     bot.run("YOUR_BOT_TOKEN")
+     ```
+   - **Option B**: Use a `.env` file (with [python-dotenv](https://pypi.org/project/python-dotenv/)):
 
+     **.env file**:
+     ```bash
+     DISCORD_BOT_TOKEN=YourDiscordBotTokenHere
+     ```
 
----
-
-## Usage
-
-After completing Installation:
-  ```bash
-   import os
-   from dotenv import load_dotenv
-   
-   load_dotenv()
-   token = os.getenv("DISCORD_BOT_TOKEN")
-   bot.run(token)
-
----
+     **main.py**:
+     ```python
+     import os
+     from dotenv import load_dotenv
+     
+     load_dotenv()
+     token = os.getenv("DISCORD_BOT_TOKEN")
+     bot.run(token)
+     ```
+```
