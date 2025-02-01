@@ -57,7 +57,7 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
       ```bash 
       DISCORD_BOT_TOKEN=YourDiscordBotTokenHere
    And then in main.py:
-      ```bash
+  ```bash
       import os
       from dotenv import load_dotenv
       
