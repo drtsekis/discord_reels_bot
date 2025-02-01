@@ -20,8 +20,6 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 10. [Contributing](#contributing)  
 11. [License](#license)  
 
-> *Notice how each TOC entry points to a heading below. For “Commands Overview,” we use `(#commands-overview)`.*
-
 ---
 
 ## Features
