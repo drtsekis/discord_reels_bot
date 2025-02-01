@@ -1,7 +1,3 @@
-Below is a **single README document** that both **shows** how a Table of Contents (TOC) is done and **explains** each section in detail. You can **copy-paste** it into your project as `README.md`. Feel free to edit any wording or remove the meta “How the Table of Contents Works” note if you don’t need it.
-
----
-
 # Discord Reels Bot
 
 A **Discord bot** that provides a temporary “Reels” feature—users can upload images that remain active for 24 hours. Other users can view and like these images; the bot automatically removes them (and their associated likes) after expiration.
