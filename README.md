@@ -2,7 +2,6 @@ Below is a **single README document** that both **shows** how a Table of Content
 
 ---
 
-```markdown
 # Discord Reels Bot
 
 A **Discord bot** that provides a temporary “Reels” feature—users can upload images that remain active for 24 hours. Other users can view and like these images; the bot automatically removes them (and their associated likes) after expiration.
@@ -217,11 +216,3 @@ You’re free to use, modify, and distribute this code, as long as you preserve 
 
 ```
 
-### How to Use This README
-
-1. **Copy-paste** the above Markdown into a file named `README.md` at your project’s root.  
-2. **Customize** any sections (e.g., rename “Discord Reels Bot,” fix the link to your repository, or remove the meta explanation about the Table of Contents if it’s too detailed).  
-3. **Commit & push** your changes to GitHub to have a well-organized README with clickable links.  
-
-*(Student-style note:)*  
-*That’s all! With this single file, you get a **Table of Contents** plus detailed instructions on every aspect of your bot.*
