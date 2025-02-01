@@ -1,4 +1,4 @@
-[Click here to watch the Paradox Reels demo video](https://cdn.discordapp.com/attachments/1138824814270890024/1331628295762219038/Paradox_Reels.mp4?ex=679f7dfe&is=679e2c7e&hm=6771143d6cbe58426b77b724eb499abc20d1f2f76726ae32242b2e22d6d19219&)
+![demo gif](https://imgur.com/a/yNxw0Uo)
 
 # Discord Reels Bot
 
