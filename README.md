@@ -1,4 +1,4 @@
-![Alt text](https://imgur.com/a/yNxw0Uo)
+[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
 
 
 > This link opens the Imgur album where you can see all related screenshots.
