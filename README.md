@@ -9,11 +9,6 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 1. [Features](#features)  
 2. [System Requirements](#system-requirements)  
 3. [Installation](#installation)  
-4. [Known Issues & Limitations](#known-issues--limitations)  
-5. [Contributing](#contributing)  
-6. [License](#license)  
-
-> *Notice how each TOC entry points to a heading below. For “Commands Overview,” we use `(#commands-overview)`.*
 
 ---
 
