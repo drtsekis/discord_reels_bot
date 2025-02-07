@@ -147,7 +147,6 @@ Invite the bot to your server using an **OAuth2** link from your [Discord Develo
 - **Tables**:  
   - `reels`: Stores each Reel (`id`, `user_id`, `image_url`, `datetime`, `likes`).  
   - `reel_likes`: Tracks likes (`user_id`, `image_url`) for each reel.  
-  - (Optional) Additional tables, such as `duty`, can be created for extra features.
 
 **Data Retention**:  
 A background task runs every 10 minutes (`@tasks.loop(minutes=10)`) to remove Reels older than 24 hours (`86400` seconds).
