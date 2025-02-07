@@ -49,7 +49,7 @@ A **Discord bot** that provides a temporary “Reels” feature—users can uplo
 
 1. **Clone the Repository** (or download the folder):
    ```bash
-   git clone https://github.com/your-username/discord-reels-bot.git
+   git clone https://github.com/drtsekis/discord-reels-bot.git
    ```
 2. **Change Directory** to the project folder:
    ```bash
